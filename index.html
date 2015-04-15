@@ -6,6 +6,7 @@
 
     <!--Things I Made-->
     <script src="js/canvas.js"></script>
+    <script src="js/conversion.js"></script>
     <script src="js/sketch_recognition.js"></script>
 
     <!--CSS-->
@@ -13,7 +14,9 @@
 </head>
 <body onload="init()">
     <canvas id="can" width="400" height="400"></canvas>
-    <textarea id="tex" readonly></textarea>
-    <img id="canvasimg" style="position:absolute;top:10%;left:52%;" style="display:none;">
+    <div id="tex">
+        <textarea id="tex_includes" readonly></textarea>
+        <textarea id="tex_tex" readonly></textarea>
+    </div>
 </body>
 </html>
