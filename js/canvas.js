@@ -20,6 +20,7 @@ function init() {
     w = canvas.width;
     h = canvas.height;
 
+    // mouse listeners
     canvas.addEventListener("mousemove", function (e) {
         findxy('move', e)
     }, false);
@@ -31,6 +32,28 @@ function init() {
     }, false);
     canvas.addEventListener("mouseout", function (e) {
         findxy('out', e)
+    }, false);
+
+    // touch listeners
+    canvas.addEventListener("touchmove", function (e) {
+        findxy('move', e.changedTouches[0]);
+        //e.preventDefault();
+    }, false);
+    canvas.addEventListener("touchstart", function (e) {
+        findxy('down', e.changedTouches[0]);
+        e.preventDefault();
+    }, false);
+    canvas.addEventListener("touchend", function (e) {
+        findxy('up', e.changedTouches[0]);
+        e.preventDefault();
+    }, false);
+    canvas.addEventListener("touchleave", function (e) {
+        findxy('out', e.changedTouches[0]);
+        e.preventDefault();
+    }, false);
+    canvas.addEventListener("touchcancel", function (e) {
+        findxy('out', e.changedTouches[0]);
+        e.preventDefault();
     }, false);
 }
 
