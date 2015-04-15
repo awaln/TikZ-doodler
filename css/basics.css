@@ -1,0 +1,17 @@
+#can {
+    position:relative;
+    display:inline-block;
+    float: left;
+    margin: 10px;
+    border:2px solid black;
+}
+
+#tex {
+    width: 400px;
+    height: 400px;
+    position:relative;
+    display:inline-block;
+    float: left;
+    margin: 10px;
+    border:2px solid black;
+}
