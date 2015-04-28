@@ -1,19 +1,19 @@
-drawing = {nodes:{},edges:[],relations:[]}
+drawing = {nodes:{},loners:[],edges:{},nodelabels:{},edgelabels:{}}
 node_name_count = 0
-edge_name_count = 0
+loner_name_count = 0
 PRETTY_DRAW_COLOR = 'black'
 PRETTY_DRAW_SIZE = 2
 COMPILE_TO = 'LaTeX'
 CLOSED_THRESHOLD = .05
 pretty_draw = (ctx, canvas) ->
   ctx.clearRect 0, 0, canvas.width, canvas.height
-
-  for relation in drawing.relations
-    ctx.beginPath()
-    ctx.moveTo drawing.nodes[relation.start[0]].center_x, drawing.nodes[relation.start[0]].center_y
-    ctx.lineTo drawing.nodes[relation.end[0]].center_x, drawing.nodes[relation.end[0]].center_y
-    ctx.stroke()
-    ctx.closePath()
+  for start in Object.keys drawing.edges
+    for end in drawing.edges[start]
+      ctx.beginPath()
+      ctx.moveTo drawing.nodes[start].center_x, drawing.nodes[start].center_y
+      ctx.lineTo drawing.nodes[end].center_x, drawing.nodes[end].center_y
+      ctx.stroke()
+      ctx.closePath()
 
   for node in Object.keys drawing.nodes
     ctx.beginPath()
@@ -22,11 +22,19 @@ pretty_draw = (ctx, canvas) ->
     ctx.stroke()
     ctx.closePath()
 
+  for loner in drawing.loners
+    ctx.beginPath()
+    ctx.moveTo loner.start[0], loner.start[1]
+    ctx.lineTo loner.end[0], loner.end[1]
+    ctx.strokeStyle = "red"
+    ctx.stroke()
+    ctx.strokeStyle = "black"
+    ctx.closePath()
+
   return
 
 @distance_formula = (x1, y1, x2, y2) -> Math.sqrt(Math.pow((x1 - x2),2) + Math.pow(y1 - y2,2))
 
-# TODO: the drawing should really have nodes, edges, and some category indicating not yet relational edges, but existing in the graph.
 @recognize = (current_stroke_x, current_stroke_y, ctx, canvas) ->
   # recognize complete stroke and say what you drew
   sketch_size = current_stroke_x.length
@@ -62,24 +70,25 @@ pretty_draw = (ctx, canvas) ->
       distance += Math.sqrt((current_stroke_x[i] - average_x) ** 2 + (current_stroke_y[i] - average_y) ** 2)
       i++
     radius = distance / sketch_size
-    drawing['nodes']['Node ' + node_name_count] =
-      name: 'Node ' + node_name_count
+    drawing['nodes'][node_name_count] =
+      name: node_name_count
       type: 'circle'
-      center_x: average_x
-      center_y: average_y
-      radius: radius
+      center_x: Math.floor average_x
+      center_y: Math.floor average_y
+      radius: Math.floor radius
+    drawing.nodelabels[node_name_count] = "Node " + node_name_count
     node_name_count++
 
   # handle open shapes (lines)
   else
     # assume straight lines for now
     # type, and two lists of nodes it connects
-    drawing['edges'].push
-      name: 'Edge ' + edge_name_count
+    drawing['loners'].push
+      name: 'Loner ' + loner_name_count
       type: 'line'
       start: [current_stroke_x[0], current_stroke_y[0]]
       end: [current_stroke_x[sketch_size - 1], current_stroke_y[sketch_size - 1]]
-    edge_name_count++
+    loner_name_count++
 
   compile COMPILE_TO, drawing
   pretty_draw(ctx, canvas)

@@ -10,19 +10,25 @@
     headers = '\\usepackage{tikz}\n'
     code = '\\begin{tikzpicture}[scale = 1]\n'
 
-    # look at the edges first, relate to nodes if possible
-    for edge in drawing['edges']
+    # look at the loners first, relate to nodes if possible
+    for loner, i in drawing['loners']
       relations = {start:[], end:[]}
       for name in Object.keys(drawing['nodes'])
         node = drawing.nodes[name]
         # check for start node overlap
-        if node.type == 'circle' and distance_formula(node.center_x, node.center_y, edge['start'][0], edge['start'][1]) < node.radius
+        if node.type == 'circle' and distance_formula(node.center_x, node.center_y, loner['start'][0], loner['start'][1]) < node.radius
           relations['start'].push(node.name)
-        if node.type == 'circle' and distance_formula(node.center_x, node.center_y, edge['end'][0], edge['end'][1]) < node.radius
+        if node.type == 'circle' and distance_formula(node.center_x, node.center_y, loner['end'][0], loner['end'][1]) < node.radius
           relations['end'].push(node.name)
       if relations['start'].length > 0 and relations['end'].length > 0
-        relations['name'] = "Edge " + drawing['relations'].length
-        drawing['relations'].push relations
+        drawing.loners.splice(i, 1)
+        for s in relations.start
+          if not drawing.edges[s]
+            drawing.edges[s] = []
+          for t in relations.end
+            if t not in drawing.edges[s]
+              drawing.edges[s].push t
+              drawing.edgelabels[s + " " + t] = "Edge " + Object.keys(drawing.edgelabels).length
 
     # TODO: Study relations and decide on a template to use
 
@@ -33,8 +39,9 @@
 
     # place edges
     code += "\\path\n"
-    for relation in drawing.relations
-      code += '(' + relation.start[0] + ') edge node {'+ relation.name + '} (' + relation.end[0] + ')\n'
+    for s in Object.keys drawing.edges
+      for e in drawing.edges[s]
+        code += '(' + s + ') edge node {'+ drawing.edgelabels[s + " " + e] + '} (' + e + ')\n'
     code += ";"
 
     # add necessary headers

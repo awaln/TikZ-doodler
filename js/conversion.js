@@ -5,45 +5,65 @@
  */
 
 (function() {
+  var indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
+
   this.compile = function(convert_to, drawing) {
-    var code, edge, headers, i, j, k, l, len, len1, len2, len3, name, node, ref, ref1, ref2, ref3, relation, relations;
+    var code, e, headers, i, j, k, l, len, len1, len2, len3, len4, len5, len6, loner, m, n, name, node, o, p, ref, ref1, ref2, ref3, ref4, ref5, ref6, relations, s, t;
     if (convert_to === 'LaTeX') {
       headers = '\\usepackage{tikz}\n';
       code = '\\begin{tikzpicture}[scale = 1]\n';
-      ref = drawing['edges'];
-      for (i = 0, len = ref.length; i < len; i++) {
-        edge = ref[i];
+      ref = drawing['loners'];
+      for (i = j = 0, len = ref.length; j < len; i = ++j) {
+        loner = ref[i];
         relations = {
           start: [],
           end: []
         };
         ref1 = Object.keys(drawing['nodes']);
-        for (j = 0, len1 = ref1.length; j < len1; j++) {
-          name = ref1[j];
+        for (k = 0, len1 = ref1.length; k < len1; k++) {
+          name = ref1[k];
           node = drawing.nodes[name];
-          if (node.type === 'circle' && distance_formula(node.center_x, node.center_y, edge['start'][0], edge['start'][1]) < node.radius) {
+          if (node.type === 'circle' && distance_formula(node.center_x, node.center_y, loner['start'][0], loner['start'][1]) < node.radius) {
             relations['start'].push(node.name);
           }
-          if (node.type === 'circle' && distance_formula(node.center_x, node.center_y, edge['end'][0], edge['end'][1]) < node.radius) {
+          if (node.type === 'circle' && distance_formula(node.center_x, node.center_y, loner['end'][0], loner['end'][1]) < node.radius) {
             relations['end'].push(node.name);
           }
         }
         if (relations['start'].length > 0 && relations['end'].length > 0) {
-          relations['name'] = "Edge " + drawing['relations'].length;
-          drawing['relations'].push(relations);
+          drawing.loners.splice(i, 1);
+          ref2 = relations.start;
+          for (l = 0, len2 = ref2.length; l < len2; l++) {
+            s = ref2[l];
+            if (!drawing.edges[s]) {
+              drawing.edges[s] = [];
+            }
+            ref3 = relations.end;
+            for (m = 0, len3 = ref3.length; m < len3; m++) {
+              t = ref3[m];
+              if (indexOf.call(drawing.edges[s], t) < 0) {
+                drawing.edges[s].push(t);
+                drawing.edgelabels[s + " " + t] = "Edge " + Object.keys(drawing.edgelabels).length;
+              }
+            }
+          }
         }
       }
-      ref2 = Object.keys(drawing.nodes);
-      for (k = 0, len2 = ref2.length; k < len2; k++) {
-        name = ref2[k];
+      ref4 = Object.keys(drawing.nodes);
+      for (n = 0, len4 = ref4.length; n < len4; n++) {
+        name = ref4[n];
         node = drawing.nodes[name];
         code += '\\node[style=circle,draw, minimum size = ' + node.radius + 'pt] (' + node.name + ') at (' + node.center_x + 'pt, -' + node.center_y + 'pt) {' + node.name + '};\n';
       }
       code += "\\path\n";
-      ref3 = drawing.relations;
-      for (l = 0, len3 = ref3.length; l < len3; l++) {
-        relation = ref3[l];
-        code += '(' + relation.start[0] + ') edge node {' + relation.name + '} (' + relation.end[0] + ')\n';
+      ref5 = Object.keys(drawing.edges);
+      for (o = 0, len5 = ref5.length; o < len5; o++) {
+        s = ref5[o];
+        ref6 = drawing.edges[s];
+        for (p = 0, len6 = ref6.length; p < len6; p++) {
+          e = ref6[p];
+          code += '(' + s + ') edge node {' + drawing.edgelabels[s + " " + e] + '} (' + e + ')\n';
+        }
       }
       code += ";";
       document.getElementById('tex_includes').value = headers;
