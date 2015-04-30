@@ -8,20 +8,23 @@
   var indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
 
   this.compile = function(convert_to, drawing) {
-    var code, e, headers, i, j, k, l, len, len1, len2, len3, len4, len5, len6, loner, m, n, name, node, o, p, ref, ref1, ref2, ref3, ref4, ref5, ref6, relations, s, t;
+    var arrow_path, code, e, headers, i, j, k, l, len, len1, len2, len3, len4, len5, loner, m, n, name, node, o, ref, ref1, ref2, ref3, ref4, ref5, ref6, relations, s, t;
     if (convert_to === 'LaTeX') {
-      headers = '\\usepackage{tikz}\n';
+      headers = '\\usepackage{tikz}\n\\usetikzlibrary{arrows}';
       code = '\\begin{tikzpicture}[scale = 1]\n';
-      ref = drawing['loners'];
-      for (i = j = 0, len = ref.length; j < len; i = ++j) {
-        loner = ref[i];
+      arrow_path = "\\path[->]\n";
+      console.log(JSON.stringify(drawing['loners']), drawing['loners'].length);
+      i = 0;
+      while (i < drawing['loners'].length) {
+        loner = drawing['loners'][i];
         relations = {
           start: [],
           end: []
         };
-        ref1 = Object.keys(drawing['nodes']);
-        for (k = 0, len1 = ref1.length; k < len1; k++) {
-          name = ref1[k];
+        console.log(loner, i, drawing['loners'][i]);
+        ref = Object.keys(drawing['nodes']);
+        for (j = 0, len = ref.length; j < len; j++) {
+          name = ref[j];
           node = drawing.nodes[name];
           if (node.type === 'circle' && distance_formula(node.center_x, node.center_y, loner['start'][0], loner['start'][1]) < node.radius) {
             relations['start'].push(node.name);
@@ -32,40 +35,50 @@
         }
         if (relations['start'].length > 0 && relations['end'].length > 0) {
           drawing.loners.splice(i, 1);
-          ref2 = relations.start;
-          for (l = 0, len2 = ref2.length; l < len2; l++) {
-            s = ref2[l];
+          ref1 = relations.start;
+          for (k = 0, len1 = ref1.length; k < len1; k++) {
+            s = ref1[k];
             if (!drawing.edges[s]) {
               drawing.edges[s] = [];
             }
-            ref3 = relations.end;
-            for (m = 0, len3 = ref3.length; m < len3; m++) {
-              t = ref3[m];
+            ref2 = relations.end;
+            for (l = 0, len2 = ref2.length; l < len2; l++) {
+              t = ref2[l];
               if (indexOf.call(drawing.edges[s], t) < 0) {
                 drawing.edges[s].push(t);
+                if (loner.type === "arrow") {
+                  drawing.arrows.push(s + " " + t);
+                }
                 drawing.edgelabels[s + " " + t] = "Edge " + Object.keys(drawing.edgelabels).length;
               }
             }
           }
+        } else {
+          i++;
         }
       }
-      ref4 = Object.keys(drawing.nodes);
-      for (n = 0, len4 = ref4.length; n < len4; n++) {
-        name = ref4[n];
+      ref3 = Object.keys(drawing.nodes);
+      for (m = 0, len3 = ref3.length; m < len3; m++) {
+        name = ref3[m];
         node = drawing.nodes[name];
         code += '\\node[style=circle,draw, minimum size = ' + node.radius + 'pt] (' + node.name + ') at (' + node.center_x + 'pt, -' + node.center_y + 'pt) {' + node.name + '};\n';
       }
       code += "\\path\n";
-      ref5 = Object.keys(drawing.edges);
-      for (o = 0, len5 = ref5.length; o < len5; o++) {
-        s = ref5[o];
-        ref6 = drawing.edges[s];
-        for (p = 0, len6 = ref6.length; p < len6; p++) {
-          e = ref6[p];
-          code += '(' + s + ') edge node {' + drawing.edgelabels[s + " " + e] + '} (' + e + ')\n';
+      ref4 = Object.keys(drawing.edges);
+      for (n = 0, len4 = ref4.length; n < len4; n++) {
+        s = ref4[n];
+        ref5 = drawing.edges[s];
+        for (o = 0, len5 = ref5.length; o < len5; o++) {
+          e = ref5[o];
+          if (ref6 = s + " " + e, indexOf.call(drawing.arrows, ref6) >= 0) {
+            arrow_path += '(' + s + ') edge node {' + drawing.edgelabels[s + " " + e] + '} (' + e + ')\n';
+          } else {
+            code += '(' + s + ') edge node {' + drawing.edgelabels[s + " " + e] + '} (' + e + ')\n';
+          }
         }
       }
       code += ";";
+      code += arrow_path + ";";
       document.getElementById('tex_includes').value = headers;
       code += '\\end{tikzpicture}\n';
       document.getElementById('tex_tex').value = code;

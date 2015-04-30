@@ -7,12 +7,17 @@
 @compile = (convert_to, drawing) ->
   # if LaTeX, make it
   if convert_to == 'LaTeX'
-    headers = '\\usepackage{tikz}\n'
+    headers = '\\usepackage{tikz}\n\\usetikzlibrary{arrows}'
     code = '\\begin{tikzpicture}[scale = 1]\n'
+    arrow_path = "\\path[->]\n"
 
     # look at the loners first, relate to nodes if possible
-    for loner, i in drawing['loners']
+    console.log JSON.stringify(drawing['loners']), drawing['loners'].length
+    i = 0
+    while i < drawing['loners'].length
+      loner = drawing['loners'][i]
       relations = {start:[], end:[]}
+      console.log loner, i, drawing['loners'][i]
       for name in Object.keys(drawing['nodes'])
         node = drawing.nodes[name]
         # check for start node overlap
@@ -28,7 +33,11 @@
           for t in relations.end
             if t not in drawing.edges[s]
               drawing.edges[s].push t
+              if loner.type == "arrow"
+                drawing.arrows.push (s + " " + t)
               drawing.edgelabels[s + " " + t] = "Edge " + Object.keys(drawing.edgelabels).length
+      else
+        i++
 
     # TODO: Study relations and decide on a template to use
 
@@ -41,8 +50,13 @@
     code += "\\path\n"
     for s in Object.keys drawing.edges
       for e in drawing.edges[s]
-        code += '(' + s + ') edge node {'+ drawing.edgelabels[s + " " + e] + '} (' + e + ')\n'
+        if (s + " " + e) in drawing.arrows
+          arrow_path += '(' + s + ') edge node {'+ drawing.edgelabels[s + " " + e] + '} (' + e + ')\n'
+        else
+          code += '(' + s + ') edge node {'+ drawing.edgelabels[s + " " + e] + '} (' + e + ')\n'
     code += ";"
+
+    code += arrow_path + ";"
 
     # add necessary headers
     document.getElementById('tex_includes').value = headers
