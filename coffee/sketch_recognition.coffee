@@ -171,7 +171,7 @@ count_corners = (list_x, list_y) ->
   #console.log curvatures
 
   # find local maxima of curvature, if above a threshold, consider it a corner
-  for l in [1...number_of_points-1]
+  for l in [Math.round(number_of_points/2)...number_of_points-1]
     #console.log curvatures[l-1], curvatures[l], curvatures[l+1]
     if curvatures[l-1] < curvatures[l] and curvatures[l+1] < curvatures[l] and curvatures[l] > CURVATURE_THRESHOLD
       corners++

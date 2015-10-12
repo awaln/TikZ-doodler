@@ -153,7 +153,7 @@
   };
 
   count_corners = function(list_x, list_y) {
-    var ARCTAN_THRESHOLD, CURVATURE_THRESHOLD, WINDOW, bottom, corners, corrected_slopes, cum_arc_length, current_wrap, curvatures, i, j, k, l, m, n, number_of_points, o, p, radians, ref, ref1, ref2, ref3, slope, slopes, top, total_stroke_length;
+    var ARCTAN_THRESHOLD, CURVATURE_THRESHOLD, WINDOW, bottom, corners, corrected_slopes, cum_arc_length, current_wrap, curvatures, i, j, k, l, m, n, number_of_points, o, p, radians, ref, ref1, ref2, ref3, ref4, slope, slopes, top, total_stroke_length;
     WINDOW = 10;
     ARCTAN_THRESHOLD = 1;
     CURVATURE_THRESHOLD = .05;
@@ -192,7 +192,7 @@
     }
     curvatures[0] = curvatures[1];
     curvatures[number_of_points - 1] = curvatures[number_of_points - 2];
-    for (l = p = 1, ref3 = number_of_points - 1; 1 <= ref3 ? p < ref3 : p > ref3; l = 1 <= ref3 ? ++p : --p) {
+    for (l = p = ref3 = Math.round(number_of_points / 2), ref4 = number_of_points - 1; ref3 <= ref4 ? p < ref4 : p > ref4; l = ref3 <= ref4 ? ++p : --p) {
       if (curvatures[l - 1] < curvatures[l] && curvatures[l + 1] < curvatures[l] && curvatures[l] > CURVATURE_THRESHOLD) {
         corners++;
       }

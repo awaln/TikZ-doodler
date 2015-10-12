@@ -61,7 +61,7 @@
       for (m = 0, len3 = ref3.length; m < len3; m++) {
         name = ref3[m];
         node = drawing.nodes[name];
-        code += '\\node[style=circle,draw, minimum size = ' + node.radius + 'pt] (' + node.name + ') at (' + node.center_x + 'pt, -' + node.center_y + 'pt) {' + node.name + '};\n';
+        code += '\\node[style=circle,draw, minimum size = ' + node.radius + 'pt] (' + node.name + ') at (' + node.center_x + 'pt, -' + node.center_y + 'pt) {' + drawing.nodelabels[node.name] + '};\n';
       }
       code += "\\path\n";
       ref4 = Object.keys(drawing.edges);

@@ -44,7 +44,7 @@
     # place nodes
     for name in Object.keys(drawing.nodes)
       node = drawing.nodes[name]
-      code += '\\node[style=circle,draw, minimum size = ' + node.radius + 'pt] (' + node.name + ') at (' + node.center_x + 'pt, -' + node.center_y + 'pt) {' + node.name + '};\n'
+      code += '\\node[style=circle,draw, minimum size = ' + node.radius + 'pt] (' + node.name + ') at (' + node.center_x + 'pt, -' + node.center_y + 'pt) {' + drawing.nodelabels[node.name] + '};\n'
 
     # place edges
     code += "\\path\n"
