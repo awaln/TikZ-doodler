@@ -1,0 +1,2672 @@
+{
+  "@type" : "srl.distributed.messages.RecognizeStrokeResponse",
+  "success" : false,
+  "bestShape" : {
+    "@type" : "Shape",
+    "id" : "c4897ba4-68ba-475c-9812-79dd303fca27",
+    "attributes" : {
+      "Closed" : "true",
+      "Primitive" : "Primitive"
+    },
+    "style" : null,
+    "contents" : [ {
+      "@type" : "Stroke",
+      "id" : "9c734874-cb93-fbe6-74e8-ea24d43c5004",
+      "attributes" : {
+      },
+      "style" : {
+        "@type" : "Style",
+        "stroke" : {
+          "@type" : "Color",
+          "red" : 128,
+          "green" : 0,
+          "blue" : 0,
+          "alpha" : 255
+        },
+        "strokeWidth" : 3.0,
+        "fill" : null,
+        "fontSize" : null,
+        "fontFamily" : null
+      },
+      "points" : [ {
+        "@type" : "Point",
+        "id" : "f0e7bc50-1e88-4d1c-a973-c40cb0da6637",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 191.0,
+        "y" : 54.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087696
+      }, {
+        "@type" : "Point",
+        "id" : "2292639b-3b82-4ead-b1a7-d83e9a92ab18",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 192.0,
+        "y" : 54.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087702
+      }, {
+        "@type" : "Point",
+        "id" : "27ebfb80-1d06-422d-83b2-b7406f3e72c1",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 194.0,
+        "y" : 54.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087709
+      }, {
+        "@type" : "Point",
+        "id" : "305b5ba3-dc8a-4930-b3a0-2b9dd8f0c699",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 197.0,
+        "y" : 53.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087717
+      }, {
+        "@type" : "Point",
+        "id" : "52f8c69d-5017-4bc8-988e-e40aadf115a8",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 201.0,
+        "y" : 51.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087725
+      }, {
+        "@type" : "Point",
+        "id" : "32403a49-ffed-46db-ae45-6c84a9dcbeeb",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 210.0,
+        "y" : 51.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087733
+      }, {
+        "@type" : "Point",
+        "id" : "9d928289-8aa8-4731-9376-a0da76363f4e",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 222.0,
+        "y" : 49.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087743
+      }, {
+        "@type" : "Point",
+        "id" : "62037e3c-1f76-4b74-b760-7d2057d57a1c",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 234.0,
+        "y" : 49.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087747
+      }, {
+        "@type" : "Point",
+        "id" : "536c9e6f-0be5-47a1-9a82-299d22ab29e6",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 247.0,
+        "y" : 49.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087755
+      }, {
+        "@type" : "Point",
+        "id" : "6d991f45-3f00-434a-af30-26ca6a98901f",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 259.0,
+        "y" : 49.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087763
+      }, {
+        "@type" : "Point",
+        "id" : "be8ea06c-db2a-4e6e-b21c-d75c76740e6d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 271.0,
+        "y" : 49.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087771
+      }, {
+        "@type" : "Point",
+        "id" : "d8f34703-3a71-455b-b613-6b5650064595",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 282.0,
+        "y" : 47.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087779
+      }, {
+        "@type" : "Point",
+        "id" : "a39c94c4-39b4-42fe-a481-dc68b53cb446",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 293.0,
+        "y" : 47.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087789
+      }, {
+        "@type" : "Point",
+        "id" : "09000370-5f96-4ef2-8bc5-ee1bf4b8f2af",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 301.0,
+        "y" : 47.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087797
+      }, {
+        "@type" : "Point",
+        "id" : "3c09a36f-cc48-49cf-802e-2adcd34c736f",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 308.0,
+        "y" : 47.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087801
+      }, {
+        "@type" : "Point",
+        "id" : "8fac9edd-909d-4c8a-9c1e-f0a445d5b1d2",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 312.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087809
+      }, {
+        "@type" : "Point",
+        "id" : "493a1a84-2237-4940-8e88-2f9cd09db838",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 313.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087817
+      }, {
+        "@type" : "Point",
+        "id" : "7fa1a2e2-dd2b-4e93-98e3-555240ce1986",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 314.0,
+        "y" : 52.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087825
+      }, {
+        "@type" : "Point",
+        "id" : "64814674-55da-4308-b496-601ca43301bb",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 314.0,
+        "y" : 53.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087834
+      }, {
+        "@type" : "Point",
+        "id" : "606c41bd-f1a0-416a-a0cf-16223e1aa49d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 316.0,
+        "y" : 55.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087842
+      }, {
+        "@type" : "Point",
+        "id" : "8cc64404-a7d7-4908-874e-c678bfdad07f",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 317.0,
+        "y" : 56.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087849
+      }, {
+        "@type" : "Point",
+        "id" : "3fdf0aca-9fdb-451d-b68b-debebfe4e6fc",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 318.0,
+        "y" : 58.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087855
+      }, {
+        "@type" : "Point",
+        "id" : "b778635f-0d63-4b79-944e-841f3b561e16",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 320.0,
+        "y" : 60.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087863
+      }, {
+        "@type" : "Point",
+        "id" : "53f0f949-2a06-41bb-9985-81ce9f93d48b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 321.0,
+        "y" : 62.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087871
+      }, {
+        "@type" : "Point",
+        "id" : "cd599394-5b41-4599-9532-b111a4b5ee8f",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 322.0,
+        "y" : 65.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087879
+      }, {
+        "@type" : "Point",
+        "id" : "d21df79c-3eba-4341-bfb4-f18406724592",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 324.0,
+        "y" : 67.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087888
+      }, {
+        "@type" : "Point",
+        "id" : "803c8567-472b-419d-855a-43295a09f2d5",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 326.0,
+        "y" : 70.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087895
+      }, {
+        "@type" : "Point",
+        "id" : "22abc773-1113-47cf-ba1f-0881fbf87593",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 328.0,
+        "y" : 74.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087903
+      }, {
+        "@type" : "Point",
+        "id" : "89c85d24-2cd8-46ff-89c2-b4097e84127b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 330.0,
+        "y" : 78.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087911
+      }, {
+        "@type" : "Point",
+        "id" : "2b9ea315-3e1a-4b08-bb75-84f317648b33",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 334.0,
+        "y" : 86.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087917
+      }, {
+        "@type" : "Point",
+        "id" : "a9d4deee-3283-4b30-adb2-156c18c5319a",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 339.0,
+        "y" : 96.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087925
+      }, {
+        "@type" : "Point",
+        "id" : "8dc64e68-c2bc-4425-a64e-9cdb1a989ecb",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 343.0,
+        "y" : 105.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087933
+      }, {
+        "@type" : "Point",
+        "id" : "d5fb6f53-f051-4b8b-98ba-acbbbad911d1",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 347.0,
+        "y" : 112.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087941
+      }, {
+        "@type" : "Point",
+        "id" : "e0ee72b1-50b2-4833-8d09-21bdf0f2fde1",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 349.0,
+        "y" : 120.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087949
+      }, {
+        "@type" : "Point",
+        "id" : "fea98fa6-a8fc-4715-a2c9-2c1355a31ab6",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 350.0,
+        "y" : 127.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087957
+      }, {
+        "@type" : "Point",
+        "id" : "2aa4e7f1-1fd2-42e9-98e9-7c79b7f247cf",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 352.0,
+        "y" : 133.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087965
+      }, {
+        "@type" : "Point",
+        "id" : "aedf2353-949e-4108-8fec-2a6ea199c950",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 354.0,
+        "y" : 137.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087972
+      }, {
+        "@type" : "Point",
+        "id" : "99c14437-e630-4379-9c5f-992706951f91",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 354.0,
+        "y" : 143.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087980
+      }, {
+        "@type" : "Point",
+        "id" : "321db333-f86d-4e1d-b1d6-ddbae54159ae",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 354.0,
+        "y" : 147.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087991
+      }, {
+        "@type" : "Point",
+        "id" : "22df23cd-0c32-4c3e-a62a-017cab07a2f9",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 354.0,
+        "y" : 153.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214087995
+      }, {
+        "@type" : "Point",
+        "id" : "eb222273-c541-4871-9fc8-a3188a8b9fba",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 354.0,
+        "y" : 158.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088003
+      }, {
+        "@type" : "Point",
+        "id" : "27566549-6c52-49a5-91e0-5c79013ccef0",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 354.0,
+        "y" : 162.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088011
+      }, {
+        "@type" : "Point",
+        "id" : "da908b6e-d2f1-4e96-996f-001e0e636380",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 354.0,
+        "y" : 166.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088019
+      }, {
+        "@type" : "Point",
+        "id" : "b39eef76-ebcd-4f7c-8451-77e15769fa81",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 354.0,
+        "y" : 170.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088027
+      }, {
+        "@type" : "Point",
+        "id" : "f7495ff3-a5df-44d7-8d74-e34c3b701cee",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 354.0,
+        "y" : 174.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088033
+      }, {
+        "@type" : "Point",
+        "id" : "cde1af16-b915-4dbe-9b90-3aef46b4585c",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 177.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088041
+      }, {
+        "@type" : "Point",
+        "id" : "5e3ded42-e707-4baa-8bc8-b97ce1981ccb",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 180.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088049
+      }, {
+        "@type" : "Point",
+        "id" : "9c80ea44-56cc-4d02-89ae-9612f969a24f",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 181.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088057
+      }, {
+        "@type" : "Point",
+        "id" : "6e016ec4-1183-409c-ad70-4f08163d155b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 183.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088065
+      }, {
+        "@type" : "Point",
+        "id" : "43fa6d8a-12ec-4243-8859-be41625228ea",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 185.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088073
+      }, {
+        "@type" : "Point",
+        "id" : "06e0b08a-d76b-4703-9ca2-31232672f01b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 186.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088081
+      }, {
+        "@type" : "Point",
+        "id" : "fdc931c0-8228-42e0-a88c-b7bed82097cc",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 188.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088089
+      }, {
+        "@type" : "Point",
+        "id" : "bacb90ee-8d93-4fb0-b939-3754081aa994",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 191.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088095
+      }, {
+        "@type" : "Point",
+        "id" : "6fa4e8ea-8b5b-413b-ada1-b254b6db0c41",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 193.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088103
+      }, {
+        "@type" : "Point",
+        "id" : "a761178b-ee47-4941-9284-4a4fed920b51",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 195.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088111
+      }, {
+        "@type" : "Point",
+        "id" : "b2cf2ed3-f5e0-4ede-a3d7-a2bd9fd12fa5",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 198.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088119
+      }, {
+        "@type" : "Point",
+        "id" : "d3182220-593b-4870-ad72-2a978a9ad02c",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 355.0,
+        "y" : 201.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088127
+      }, {
+        "@type" : "Point",
+        "id" : "238ac09b-1a50-4235-8e7b-f687c855057a",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 353.0,
+        "y" : 203.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088135
+      }, {
+        "@type" : "Point",
+        "id" : "0482c311-53ed-4772-8c8e-672015c2c613",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 351.0,
+        "y" : 206.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088144
+      }, {
+        "@type" : "Point",
+        "id" : "08df5c72-90c1-4d37-bb07-1141919177b5",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 349.0,
+        "y" : 210.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088152
+      }, {
+        "@type" : "Point",
+        "id" : "bf838eaa-e202-4e46-a645-f904a35ee8ef",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 347.0,
+        "y" : 214.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088157
+      }, {
+        "@type" : "Point",
+        "id" : "c36c7159-e0db-4c6c-a76a-a4bc2ff8139a",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 343.0,
+        "y" : 218.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088165
+      }, {
+        "@type" : "Point",
+        "id" : "f8741903-d82b-4618-8327-2d4dfa12752c",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 339.0,
+        "y" : 222.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088173
+      }, {
+        "@type" : "Point",
+        "id" : "1de8d2e5-bccd-4268-afd0-36bce1988ce5",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 335.0,
+        "y" : 226.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088181
+      }, {
+        "@type" : "Point",
+        "id" : "63826af2-8cbf-4dd7-96c5-47f416aa8ca5",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 331.0,
+        "y" : 230.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088189
+      }, {
+        "@type" : "Point",
+        "id" : "0896fc4f-7fb0-41a1-adcd-1b206e7d7e2e",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 326.0,
+        "y" : 231.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088197
+      }, {
+        "@type" : "Point",
+        "id" : "400b0ca4-17a5-4f6c-b027-a9618faca618",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 322.0,
+        "y" : 234.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088205
+      }, {
+        "@type" : "Point",
+        "id" : "8b964e4f-c7a9-4e97-b9a4-83c2e634df08",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 318.0,
+        "y" : 235.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088212
+      }, {
+        "@type" : "Point",
+        "id" : "31482e61-31a7-422e-b3a3-dfac44dee736",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 314.0,
+        "y" : 239.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088219
+      }, {
+        "@type" : "Point",
+        "id" : "80d6a422-98a4-4ac6-992f-ca6cad0fa1c1",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 310.0,
+        "y" : 241.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088227
+      }, {
+        "@type" : "Point",
+        "id" : "dd6b3a15-6c36-40f9-929f-54d3523368d2",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 306.0,
+        "y" : 243.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088235
+      }, {
+        "@type" : "Point",
+        "id" : "c6d4929f-1783-408f-a9f4-558c208c44b1",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 300.0,
+        "y" : 245.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088243
+      }, {
+        "@type" : "Point",
+        "id" : "cd1c099f-2fbe-4029-b9f2-1cd4de32429d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 295.0,
+        "y" : 248.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088251
+      }, {
+        "@type" : "Point",
+        "id" : "03273185-288a-4b90-8528-f5c4ce0be7fa",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 291.0,
+        "y" : 250.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088259
+      }, {
+        "@type" : "Point",
+        "id" : "2976d18a-5807-4eec-8beb-33b10c3b10e7",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 287.0,
+        "y" : 252.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088267
+      }, {
+        "@type" : "Point",
+        "id" : "2ccd4128-23f3-4877-9fc0-ac4a9648abc9",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 283.0,
+        "y" : 254.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088273
+      }, {
+        "@type" : "Point",
+        "id" : "acd66f18-5268-4122-b88a-912a19a35651",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 279.0,
+        "y" : 256.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088281
+      }, {
+        "@type" : "Point",
+        "id" : "54ecd783-f037-4ce5-aa6d-a4d874172691",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 277.0,
+        "y" : 257.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088289
+      }, {
+        "@type" : "Point",
+        "id" : "18c64da9-4738-479c-a022-6511b8df9f4d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 275.0,
+        "y" : 259.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088298
+      }, {
+        "@type" : "Point",
+        "id" : "c983eae2-e212-4e3f-bf66-8b2ef3da1cab",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 273.0,
+        "y" : 259.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088306
+      }, {
+        "@type" : "Point",
+        "id" : "7c68d48f-13e9-481e-bd20-82e6790936bc",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 272.0,
+        "y" : 261.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088313
+      }, {
+        "@type" : "Point",
+        "id" : "757203bc-a926-46a2-9a8d-751f093a7e9a",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 270.0,
+        "y" : 261.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088321
+      }, {
+        "@type" : "Point",
+        "id" : "c816b5e2-f2ab-4838-a569-66bcada4f251",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 269.0,
+        "y" : 262.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088327
+      }, {
+        "@type" : "Point",
+        "id" : "fcbd77af-6e94-45db-8331-d21bbe77d09f",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 267.0,
+        "y" : 263.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088335
+      }, {
+        "@type" : "Point",
+        "id" : "b92d956e-e3ea-4850-9d02-ded56737c1bb",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 266.0,
+        "y" : 264.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088344
+      }, {
+        "@type" : "Point",
+        "id" : "14fea678-afb2-48c4-a2b7-29f2b6cbe560",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 264.0,
+        "y" : 265.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088351
+      }, {
+        "@type" : "Point",
+        "id" : "b2f99ed0-70c4-4578-9ecb-686259d4dcd4",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 262.0,
+        "y" : 265.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088361
+      }, {
+        "@type" : "Point",
+        "id" : "23d29461-b2a2-4b92-8f7e-052c5dc43e74",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 260.0,
+        "y" : 267.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088368
+      }, {
+        "@type" : "Point",
+        "id" : "ef56af2e-0f7d-4fe2-a0e8-7a58f468b710",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 258.0,
+        "y" : 267.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088375
+      }, {
+        "@type" : "Point",
+        "id" : "80bc22c7-bf18-4170-82d6-e3005639d047",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 255.0,
+        "y" : 268.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088383
+      }, {
+        "@type" : "Point",
+        "id" : "a37cd37b-13e8-46fc-a7d8-bc05e2c3ebb7",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 254.0,
+        "y" : 268.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088389
+      }, {
+        "@type" : "Point",
+        "id" : "ae287fc3-1066-4676-aac7-397d6bc9499c",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 252.0,
+        "y" : 268.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088397
+      }, {
+        "@type" : "Point",
+        "id" : "f88d46ee-0ea5-4dd3-ad64-d33a98988a2a",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 249.0,
+        "y" : 268.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088405
+      }, {
+        "@type" : "Point",
+        "id" : "6b9e5cdb-9c28-4774-91e8-4b246683277d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 246.0,
+        "y" : 268.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088414
+      }, {
+        "@type" : "Point",
+        "id" : "4dbe5680-db57-473e-a5c2-24ec0995ba00",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 242.0,
+        "y" : 268.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088421
+      }, {
+        "@type" : "Point",
+        "id" : "a09b4e03-585e-4f66-9aba-4450049fe64d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 240.0,
+        "y" : 268.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088429
+      }, {
+        "@type" : "Point",
+        "id" : "8918c05e-91bf-4f99-9b9b-306c8a714eb4",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 237.0,
+        "y" : 266.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088437
+      }, {
+        "@type" : "Point",
+        "id" : "019ef036-8642-4554-a6c0-12dfb7ae0517",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 232.0,
+        "y" : 264.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088444
+      }, {
+        "@type" : "Point",
+        "id" : "9374709e-d48a-4ca7-a743-559865369909",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 227.0,
+        "y" : 261.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088451
+      }, {
+        "@type" : "Point",
+        "id" : "1d00249a-4987-4270-90aa-9651579b6166",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 222.0,
+        "y" : 258.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088459
+      }, {
+        "@type" : "Point",
+        "id" : "4f364d69-15fa-4eb8-9085-44bb90d7df31",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 218.0,
+        "y" : 255.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088467
+      }, {
+        "@type" : "Point",
+        "id" : "8eb93ce3-16b1-4d55-8ae3-a736224915a4",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 213.0,
+        "y" : 252.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088475
+      }, {
+        "@type" : "Point",
+        "id" : "9c5f19c4-da0a-4d0d-bbcd-a3ab49184d88",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 207.0,
+        "y" : 248.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088483
+      }, {
+        "@type" : "Point",
+        "id" : "ea3f6460-9e6e-4417-a9f7-e0347d71e83f",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 202.0,
+        "y" : 244.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088491
+      }, {
+        "@type" : "Point",
+        "id" : "76ea1393-f3f6-4f43-850a-cad0848360b5",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 196.0,
+        "y" : 242.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088499
+      }, {
+        "@type" : "Point",
+        "id" : "2ecb39d7-fbcf-4c59-a657-f8e7d1735ba3",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 191.0,
+        "y" : 240.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088505
+      }, {
+        "@type" : "Point",
+        "id" : "7f2c227b-4db4-4e27-b240-53e14276d832",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 187.0,
+        "y" : 238.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088513
+      }, {
+        "@type" : "Point",
+        "id" : "f8b54580-c4dd-4128-a39c-1b48cb2f8a67",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 185.0,
+        "y" : 236.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088521
+      }, {
+        "@type" : "Point",
+        "id" : "d64d7108-32d5-4a24-9362-38786128a086",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 183.0,
+        "y" : 234.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088529
+      }, {
+        "@type" : "Point",
+        "id" : "5438cb19-f33d-4f3a-8aae-9e4b993e48da",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 181.0,
+        "y" : 232.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088537
+      }, {
+        "@type" : "Point",
+        "id" : "bd8880c3-2a4a-43f4-a985-f442ca907ab8",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 179.0,
+        "y" : 230.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088547
+      }, {
+        "@type" : "Point",
+        "id" : "6c0269b1-72c9-437f-b6cb-292693169bc3",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 176.0,
+        "y" : 228.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088553
+      }, {
+        "@type" : "Point",
+        "id" : "4a0871ad-2820-41db-84aa-442412e370d1",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 175.0,
+        "y" : 225.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088563
+      }, {
+        "@type" : "Point",
+        "id" : "77944b19-977f-4b88-8f9b-e5b53be3fed1",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 172.0,
+        "y" : 224.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088567
+      }, {
+        "@type" : "Point",
+        "id" : "334457dc-3d03-4a39-acfe-1e1dc8a16d60",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 171.0,
+        "y" : 221.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088575
+      }, {
+        "@type" : "Point",
+        "id" : "0b776165-22c0-4001-8805-3653a556bd84",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 170.0,
+        "y" : 219.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088583
+      }, {
+        "@type" : "Point",
+        "id" : "e1c70886-3000-44ae-8b6b-7de836461589",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 168.0,
+        "y" : 217.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088591
+      }, {
+        "@type" : "Point",
+        "id" : "239bb556-53f4-4eff-9acf-e23f95a668fb",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 168.0,
+        "y" : 215.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088599
+      }, {
+        "@type" : "Point",
+        "id" : "db1b0080-9df3-4e67-bce8-0fa016211325",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 166.0,
+        "y" : 213.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088607
+      }, {
+        "@type" : "Point",
+        "id" : "46c92dfb-2b58-48a5-9224-a1c2f10aa5db",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 166.0,
+        "y" : 211.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088615
+      }, {
+        "@type" : "Point",
+        "id" : "5206213f-6ea4-4ab2-800e-87db2aa483ff",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 164.0,
+        "y" : 209.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088623
+      }, {
+        "@type" : "Point",
+        "id" : "68e88f21-5e50-4f8e-a910-629c51762e48",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 163.0,
+        "y" : 205.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088629
+      }, {
+        "@type" : "Point",
+        "id" : "7ee860a0-45b9-4abf-a481-e14064e581a3",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 161.0,
+        "y" : 202.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088637
+      }, {
+        "@type" : "Point",
+        "id" : "e1033036-29b8-4f98-a40b-30bac1b0e03d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 161.0,
+        "y" : 199.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088645
+      }, {
+        "@type" : "Point",
+        "id" : "68df0b33-7085-478d-8128-22223e51387b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 160.0,
+        "y" : 196.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088653
+      }, {
+        "@type" : "Point",
+        "id" : "823f86fa-06e8-4ce1-bc44-68e361b9320b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 159.0,
+        "y" : 193.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088662
+      }, {
+        "@type" : "Point",
+        "id" : "51eb6e64-6e53-4ee8-9ad8-37548fe4b6b5",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 156.0,
+        "y" : 190.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088669
+      }, {
+        "@type" : "Point",
+        "id" : "ae083bd7-a616-4ce5-bc08-e9c8096e1ce3",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 156.0,
+        "y" : 186.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088677
+      }, {
+        "@type" : "Point",
+        "id" : "c30b15d3-12d9-4a1c-9a94-758610788cf7",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 154.0,
+        "y" : 181.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088683
+      }, {
+        "@type" : "Point",
+        "id" : "577171a6-e632-4ffc-9ee2-6deabd152f02",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 152.0,
+        "y" : 176.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088691
+      }, {
+        "@type" : "Point",
+        "id" : "7a34b4e0-e3d6-4712-a5af-117eb4c6806f",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 151.0,
+        "y" : 172.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088699
+      }, {
+        "@type" : "Point",
+        "id" : "7c22e24c-34e5-4a9b-89d2-793e089a50c4",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 151.0,
+        "y" : 170.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088707
+      }, {
+        "@type" : "Point",
+        "id" : "ad9002d0-369a-47ab-854a-8d731a80fd28",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 151.0,
+        "y" : 167.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088715
+      }, {
+        "@type" : "Point",
+        "id" : "9e30d165-c102-4665-b03e-d8845a0e1b97",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 150.0,
+        "y" : 165.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088723
+      }, {
+        "@type" : "Point",
+        "id" : "ff0ad01f-2e37-4138-b72a-9bad2f24d579",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 150.0,
+        "y" : 162.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088731
+      }, {
+        "@type" : "Point",
+        "id" : "dd72d0d3-0084-4dd9-b31a-e63d4d6bbd3d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 150.0,
+        "y" : 161.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088739
+      }, {
+        "@type" : "Point",
+        "id" : "6a8927d6-af47-4d21-98dc-19e03187c012",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 150.0,
+        "y" : 158.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088745
+      }, {
+        "@type" : "Point",
+        "id" : "85768414-6b7d-4bf3-87ed-5cc91ce7c187",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 155.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088753
+      }, {
+        "@type" : "Point",
+        "id" : "98297ff4-13f1-4895-9e8a-9cf0bb27aa0d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 152.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088761
+      }, {
+        "@type" : "Point",
+        "id" : "304cd5ae-2a89-4c6b-82fd-35028ae78d27",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 150.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088769
+      }, {
+        "@type" : "Point",
+        "id" : "1edbc013-c4d4-44fc-9ae4-c2c14101e9e7",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 147.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088778
+      }, {
+        "@type" : "Point",
+        "id" : "a8615d58-9b19-40c9-a5c8-8446d9f6855d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 144.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088786
+      }, {
+        "@type" : "Point",
+        "id" : "c78dc07a-051a-4d4d-b78f-e9c7c88344d9",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 142.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088794
+      }, {
+        "@type" : "Point",
+        "id" : "9c90c4bb-e86c-43ed-aac8-e6e453431e17",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 140.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088802
+      }, {
+        "@type" : "Point",
+        "id" : "3566975b-5d2e-4392-a543-b58081a4d4c4",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 137.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088807
+      }, {
+        "@type" : "Point",
+        "id" : "6b9c45e8-1d74-4314-9ae3-a85342e32288",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 134.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088815
+      }, {
+        "@type" : "Point",
+        "id" : "fbea15ea-be46-497f-a5b0-91bc93aef400",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 131.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088823
+      }, {
+        "@type" : "Point",
+        "id" : "7eaeb4af-b5c5-46d2-89f4-576bc0b97e27",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 128.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088831
+      }, {
+        "@type" : "Point",
+        "id" : "52572268-af02-4369-abc1-aa467359b42e",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 126.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088839
+      }, {
+        "@type" : "Point",
+        "id" : "263239b9-b15f-4632-9e53-b8baf7810b11",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 124.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088847
+      }, {
+        "@type" : "Point",
+        "id" : "4ad680cd-5327-4e8f-a9db-f9071727d27b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 121.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088855
+      }, {
+        "@type" : "Point",
+        "id" : "d6aebcf7-ad78-4a1a-94ae-10fce335c7c8",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 118.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088862
+      }, {
+        "@type" : "Point",
+        "id" : "b11c045f-7961-4890-863f-7b9885878748",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 115.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088869
+      }, {
+        "@type" : "Point",
+        "id" : "9bda9939-72f3-48af-a1eb-adfc3169c1cf",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 113.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088877
+      }, {
+        "@type" : "Point",
+        "id" : "867b07e9-9ab3-4672-89a8-cfb33c8ab06a",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 111.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088885
+      }, {
+        "@type" : "Point",
+        "id" : "4049ccc4-88c0-47f4-b750-f36880f7ceeb",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 109.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088893
+      }, {
+        "@type" : "Point",
+        "id" : "7827f283-1aa1-44bf-a920-a1de3ecc8bba",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 107.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088902
+      }, {
+        "@type" : "Point",
+        "id" : "5accf6bd-d944-46e1-9ab7-23222aba843e",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 106.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088909
+      }, {
+        "@type" : "Point",
+        "id" : "48490693-337d-4e20-8ad6-40fed7351140",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 104.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088917
+      }, {
+        "@type" : "Point",
+        "id" : "793f6522-0f80-4c24-a107-284c33c8f1ac",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 102.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088923
+      }, {
+        "@type" : "Point",
+        "id" : "c717ad9f-f148-4f4c-bd77-f993e746a18f",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 100.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088931
+      }, {
+        "@type" : "Point",
+        "id" : "b0b1fcc7-b361-4509-b402-318c987e228d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 98.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088939
+      }, {
+        "@type" : "Point",
+        "id" : "d4dfeea2-143d-4648-9462-84a7706b27d3",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 96.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088947
+      }, {
+        "@type" : "Point",
+        "id" : "84251a0d-5741-4b0e-8483-da0a99d0219b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 95.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088955
+      }, {
+        "@type" : "Point",
+        "id" : "8c62fd5b-1da1-4455-b0d4-5deed4f70a5b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 149.0,
+        "y" : 93.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088963
+      }, {
+        "@type" : "Point",
+        "id" : "9a5ad05e-24f0-4e9b-a38c-c7f2f2e08b17",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 151.0,
+        "y" : 91.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088971
+      }, {
+        "@type" : "Point",
+        "id" : "83e1c8d8-9b98-409b-8190-56eb99cecb3b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 152.0,
+        "y" : 91.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088977
+      }, {
+        "@type" : "Point",
+        "id" : "9004f659-ea05-4739-bc59-a1fc4d4231f1",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 153.0,
+        "y" : 89.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088985
+      }, {
+        "@type" : "Point",
+        "id" : "c5d3eb8d-9434-49fb-b706-07bdad641bff",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 153.0,
+        "y" : 88.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214088993
+      }, {
+        "@type" : "Point",
+        "id" : "299c3094-e8ae-4a66-bb48-c40e48284744",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 154.0,
+        "y" : 87.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089001
+      }, {
+        "@type" : "Point",
+        "id" : "cd07b48a-75b7-4d35-8fa2-b0e3024a5ce1",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 156.0,
+        "y" : 85.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089009
+      }, {
+        "@type" : "Point",
+        "id" : "a6d7f995-2661-4107-8ab0-2a11004e7ba9",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 156.0,
+        "y" : 83.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089017
+      }, {
+        "@type" : "Point",
+        "id" : "9680260c-c71d-4ff7-a11b-97fdc1c87395",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 158.0,
+        "y" : 82.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089025
+      }, {
+        "@type" : "Point",
+        "id" : "60a77a5b-ba8f-4b69-833e-e6c873a50c46",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 158.0,
+        "y" : 81.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089033
+      }, {
+        "@type" : "Point",
+        "id" : "213761b2-cbe8-4c81-af1a-c145cb9c0fd5",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 159.0,
+        "y" : 80.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089039
+      }, {
+        "@type" : "Point",
+        "id" : "d7741261-1ea6-43a9-8667-027b2e982268",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 159.0,
+        "y" : 79.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089047
+      }, {
+        "@type" : "Point",
+        "id" : "9e793fcb-eb32-4f8a-9f35-8fa090bc5044",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 161.0,
+        "y" : 77.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089056
+      }, {
+        "@type" : "Point",
+        "id" : "16c9ef2f-4c6d-4fca-ad72-066398b31128",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 162.0,
+        "y" : 76.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089063
+      }, {
+        "@type" : "Point",
+        "id" : "4ca3d99a-d71a-4bb4-a292-4eb7557a6824",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 163.0,
+        "y" : 75.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089071
+      }, {
+        "@type" : "Point",
+        "id" : "f9d75718-85fb-428c-8ea6-bbdb5b79193d",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 165.0,
+        "y" : 74.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089079
+      }, {
+        "@type" : "Point",
+        "id" : "c6f7d2a0-edc3-48fa-bf33-8ab20d7e7088",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 166.0,
+        "y" : 73.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089087
+      }, {
+        "@type" : "Point",
+        "id" : "c2f53466-23b6-401f-a947-7dbbfdaf602e",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 168.0,
+        "y" : 73.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089093
+      }, {
+        "@type" : "Point",
+        "id" : "55ce76d7-bdd5-4a89-b2d2-26629b30528f",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 170.0,
+        "y" : 71.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089101
+      }, {
+        "@type" : "Point",
+        "id" : "c75f27e7-8b62-4985-afae-6ff883148623",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 172.0,
+        "y" : 71.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089110
+      }, {
+        "@type" : "Point",
+        "id" : "dcada4bc-13ac-4c14-9f0f-e9f189650275",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 174.0,
+        "y" : 70.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089118
+      }, {
+        "@type" : "Point",
+        "id" : "0fe87171-8705-4d24-ac80-0ded230b5793",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 176.0,
+        "y" : 69.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089125
+      }, {
+        "@type" : "Point",
+        "id" : "e76aa0ff-579e-4d60-859f-b8a21eafef77",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 178.0,
+        "y" : 68.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089133
+      }, {
+        "@type" : "Point",
+        "id" : "74c69e89-56bd-4ca8-9f31-ba9b950c8b95",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 180.0,
+        "y" : 67.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089141
+      }, {
+        "@type" : "Point",
+        "id" : "66a2f5c2-4c9b-4e82-b857-495e2f012435",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 182.0,
+        "y" : 66.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089149
+      }, {
+        "@type" : "Point",
+        "id" : "41adee23-b69e-4db1-90ef-d93e3a457ed2",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 184.0,
+        "y" : 65.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089163
+      }, {
+        "@type" : "Point",
+        "id" : "2cd6fb4e-6dfe-4c21-8f37-124edaf84e35",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 185.0,
+        "y" : 64.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089187
+      }, {
+        "@type" : "Point",
+        "id" : "8728b3d4-28c6-40d4-b2a0-eff9b389ae39",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 185.0,
+        "y" : 63.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089226
+      }, {
+        "@type" : "Point",
+        "id" : "642b5f71-06a9-45c2-b7cc-b1df84f05096",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 186.0,
+        "y" : 62.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089233
+      }, {
+        "@type" : "Point",
+        "id" : "e73a9b57-8d3f-43e8-9261-ed97c70fb4f5",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 187.0,
+        "y" : 62.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089241
+      }, {
+        "@type" : "Point",
+        "id" : "6724ce40-3018-4588-b6c8-0ff58aa1aa49",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 187.0,
+        "y" : 61.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089249
+      }, {
+        "@type" : "Point",
+        "id" : "90e806e8-79dc-4d89-b10d-baf611c66440",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 188.0,
+        "y" : 60.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089258
+      }, {
+        "@type" : "Point",
+        "id" : "494ba2c2-3a81-45da-aa4d-2b9804ca7c38",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 190.0,
+        "y" : 59.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089265
+      }, {
+        "@type" : "Point",
+        "id" : "89391e40-c268-4b59-83cf-0aa5b048efb5",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 191.0,
+        "y" : 58.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089279
+      }, {
+        "@type" : "Point",
+        "id" : "10662545-cdcb-43c4-8d8d-91f9cec7bbd0",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 192.0,
+        "y" : 58.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089287
+      }, {
+        "@type" : "Point",
+        "id" : "4d4ddcfd-5699-410f-bfb1-efab6d86b4e7",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 193.0,
+        "y" : 57.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089295
+      }, {
+        "@type" : "Point",
+        "id" : "58c5c14e-e560-4db9-b254-9cfa962cd3b3",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 194.0,
+        "y" : 56.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089303
+      }, {
+        "@type" : "Point",
+        "id" : "4a89ba9e-8bf9-4056-b688-795d8b1107c4",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 196.0,
+        "y" : 55.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089319
+      }, {
+        "@type" : "Point",
+        "id" : "b1f8c3f5-8e88-457e-93b4-c94b1f7bf819",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 198.0,
+        "y" : 55.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089328
+      }, {
+        "@type" : "Point",
+        "id" : "d798c738-3987-4b9f-a378-46c05b12d258",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 199.0,
+        "y" : 54.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089342
+      }, {
+        "@type" : "Point",
+        "id" : "9860e8da-2acf-476d-a868-e54b79cea800",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 201.0,
+        "y" : 53.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089349
+      }, {
+        "@type" : "Point",
+        "id" : "f744dbf5-01d6-4a9f-b3ef-cd8949f35525",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 203.0,
+        "y" : 52.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089366
+      }, {
+        "@type" : "Point",
+        "id" : "15134d37-7565-47f5-a636-fe423b7cb17e",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 203.0,
+        "y" : 51.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089374
+      }, {
+        "@type" : "Point",
+        "id" : "59591a85-92d4-47ea-85ad-72db93471396",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 204.0,
+        "y" : 51.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089381
+      }, {
+        "@type" : "Point",
+        "id" : "d7be2a8d-2272-4d80-a0b2-9d7146a3ea32",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 204.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089396
+      }, {
+        "@type" : "Point",
+        "id" : "c40dfe93-5475-4b43-a376-f4b9f08c4013",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 205.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089422
+      }, {
+        "@type" : "Point",
+        "id" : "f49d2556-ef5e-4626-ac39-2c41345c599b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 206.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089443
+      }, {
+        "@type" : "Point",
+        "id" : "921ead53-8761-445f-9fc2-4b8a00cab5a3",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 207.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089459
+      }, {
+        "@type" : "Point",
+        "id" : "e8e256a0-8f73-43ac-be94-044f16134d56",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 208.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089474
+      }, {
+        "@type" : "Point",
+        "id" : "ba7dacd0-3757-4b5c-9ac4-48c13b678e3b",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 209.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089486
+      }, {
+        "@type" : "Point",
+        "id" : "18db0cb4-34aa-4e4c-99b7-2813879aab37",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 210.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089497
+      }, {
+        "@type" : "Point",
+        "id" : "181c8d03-a247-49f0-a1fe-64bb3b2cafe5",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 211.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089505
+      }, {
+        "@type" : "Point",
+        "id" : "e2407801-e782-49c0-ac55-400634743edf",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 212.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089535
+      }, {
+        "@type" : "Point",
+        "id" : "568e7928-315c-4cf7-ba9b-b4d6ae344515",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 213.0,
+        "y" : 50.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089589
+      }, {
+        "@type" : "Point",
+        "id" : "de1aeb3e-7d74-487c-9593-99f6a6ca144e",
+        "attributes" : {
+        },
+        "style" : null,
+        "x" : 213.0,
+        "y" : 53.0,
+        "pressure" : null,
+        "tiltX" : null,
+        "tiltY" : null,
+        "time" : 1445214089622
+      } ],
+      "interpretations" : [ ],
+      "segmentations" : [ ],
+      "parent" : null
+    } ],
+    "interpretations" : [ {
+      "label" : "Circle",
+      "confidence" : 1.0
+    } ],
+    "aliases" : [ ]
+  },
+  "label" : "Circle",
+  "recognitionTime" : 3
+}

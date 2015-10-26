@@ -1,0 +1,44 @@
+#can {
+    position:relative;
+    display:inline-block;
+    float: left;
+    margin: 10px;
+    border:2px solid black;
+}
+
+#askbox {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width:400px;
+    height:400px;
+}
+
+#tex_includes {
+    width: 400px;
+    height: 100px;
+    position:relative;
+    display:inline-block;
+    float: left;
+    border:2px solid black;
+    margin-bottom: 5px;
+}
+
+#tex_tex {
+    width: 400px;
+    height: 278px;
+    position:relative;
+    display:inline-block;
+    float: left;
+    border:2px solid black;
+    margin-top: 5px;
+}
+
+#tex {
+    width: 400px;
+    height: 400px;
+    position:relative;
+    display:inline-block;
+    float: left;
+    margin: 10px;
+}
